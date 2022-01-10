@@ -82,7 +82,7 @@ respond() {
 	/videoalerts) videoAlerts;;
 	/dualalerts) imageThenVideoAlerts;;
 	/reboot) doSystemReboot;;
-	/help | /start) $TELEGRAM m "######### Bot commands #########\n# /mem - show memory information\n# /status - show current camera status\n# /shot - take a snapshot\n# /on - motion detection on\n# /off - motion detection off\n# /nighton - night mode on\n# /nightoff - night mode off\n# /textalerts - Text alerts on motion detection\n# /imagealerts - Image alerts on motion detection\n# /videoalerts - Video alerts on motion detection\n# /dualalerts - Image snapshot then video alerts on motion detection# /reboot - Perform a system reboot";;
+	/help | /start) $TELEGRAM m "######### Bot commands #########\n# /mem - show memory information\n# /status - show current camera status\n# /shot - take a snapshot\n# /on - motion detection on\n# /off - motion detection off\n# /nighton - night mode on\n# /nightoff - night mode off\n# /textalerts - Text alerts on motion detection\n# /imagealerts - Image alerts on motion detection\n# /videoalerts - Video alerts on motion detection\n# /dualalerts - Image snapshot then video alerts on motion detection\n# /reboot - Perform a system reboot";;
 	/*) $TELEGRAM m "I can't respond to '$cmd' command"
   esac
 }
